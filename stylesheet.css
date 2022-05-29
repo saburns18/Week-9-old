@@ -1,0 +1,130 @@
+body, html {
+    height:100vh;
+    font-family: neue-helvetica-family;
+}
+
+main {
+    font-family: neue-helvetica-family;
+    max-height: fit-content;
+    overflow-y: scroll;
+}
+
+.bg-image {
+    background-image: url(MainPageBrewer.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position:absolute;
+    filter: blur(5px);
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 3px solid rgb(241, 241, 241);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    border: 2.5px solid rgb(241, 241, 241);;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: smaller;
+    color:rgb(241, 241, 241)
+}
+
+.col {
+    max-height: 90vh;
+    overflow-y: scroll;
+}
+
+.col-lg {
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(255, 255, 255)
+}
+
+/*Remove the scrollbar from Chrome, Safari, Edge and IE*/
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.eventmain {
+    display: flexbox;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 3px solid rgb(241, 241, 241);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.h2placeholder {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 3px solid rgb(241, 241, 241);
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+
+ #aboutdiv {
+    display: flex;
+    border: 1px solid rgb(241, 241, 241);
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 3px solid rgb(241, 241, 241);
+    position: absolute;
+    text-align: center;
+    height:fit-content
+ }
+
+
+ form {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(241, 241, 241);
+    padding: 10px;
+    z-index: 2;
+    width: 80%;
+ }
+
+ body {
+    background-color: rgb(0,0,0, 0.4);
+    background-image: url(MainPageBrewer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
